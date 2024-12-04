@@ -170,6 +170,10 @@ You can extend this project to include more tests and browser interactions as ne
 
 ## WebDriver Interaction with Browser Elements
 
+WebDriver is used to interact with a browser. In order to interact with elements on the browser, WebDriver must be able to locate those elements, which are typically defined in the HTML or Document Object Model (DOM).
+
+Every element on a webpage, whether it is a link, title, or button, can be interacted with. We need to instruct WebDriver on which element to interact with and how to interact with it.
+
 ### Key Concepts:
 1. **Locating Elements**: To interact with elements on a web page, Selenium WebDriver uses the `findElement` and `findElements` methods.
     - `findElement`: Locates a single element (e.g., a link, button, etc.) based on a given locator strategy.
@@ -185,15 +189,6 @@ You can extend this project to include more tests and browser interactions as ne
 
 4. **NoSuchElementException**: This exception is thrown if WebDriver is unable to find an element on the page. Reasons include incorrect locators or trying to interact with an element that isn’t present yet.
 
-# 
-
-This README provides an organized explanation of how to use Selenium WebDriver to locate and interact with elements on a webpage. It covers basic examples of using `findElement` and `findElements` to locate single or multiple elements and demonstrates handling common exceptions.
-
-## Introduction
-
-WebDriver is used to interact with a browser. In order to interact with elements on the browser, WebDriver must be able to locate those elements, which are typically defined in the HTML or Document Object Model (DOM).
-
-Every element on a webpage, whether it is a link, title, or button, can be interacted with. We need to instruct WebDriver on which element to interact with and how to interact with it.
 
 ## Identifying Web Elements
 To interact with elements, WebDriver needs to locate them based on information provided in the HTML or DOM. For example, you can use browser developer tools (right-click on an element and select "Inspect") to view the HTML structure of an element.
