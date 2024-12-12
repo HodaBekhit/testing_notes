@@ -1,6 +1,8 @@
 # Selenium WebDriver with java
 
 The browser driver is an intermediary between Selenium and the actual browser, allowing Selenium to interact with it programmatically.
+[[TOC]]
+
 
 ## Web Driver
 
